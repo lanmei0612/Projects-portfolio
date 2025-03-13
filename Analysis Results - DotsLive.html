@@ -1,0 +1,337 @@
+
+<!-- saved from url=(0160)file:///Users/sunnyzheng/Library/Containers/net.whatsapp.WhatsApp/Data/tmp/documents/9D205A70-51A8-4833-A55F-8938570AAA81/Analysis%20Results%20-%20DotsLive.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body># templates/results.html
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results - DotsLive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0a192f;
+            min-height: 100vh;
+            color: white;
+            padding: 2rem;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(10, 25, 47, 0.95);
+            position: relative;
+            z-index: 2;
+            margin: -2rem -2rem 2rem -2rem;
+        }
+
+        .logo-text {
+            color: #ff6b6b;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .results-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background: rgba(17, 34, 64, 0.8);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            color: #4a90e2;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .info-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .info-label {
+            color: #8892b0;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .info-value {
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: rgba(74, 144, 226, 0.1);
+            color: #4a90e2;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .course-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .course-title {
+            color: #4a90e2;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: #4a90e2;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #357abd;
+        }
+
+        .development-plan {
+            white-space: pre-line;
+            line-height: 1.6;
+        }
+    </style>
+
+
+    <nav class="nav">
+        <div class="logo-text" onclick="window.location.href=&#39;/&#39;">DotsLive</div>
+    </nav>
+
+    <div class="results-container">
+        <div class="section">
+            <h2 class="section-title">Best Matching Job</h2>
+            <div class="grid">
+                <div class="info-item">
+                    <div class="info-label">Position</div>
+                    <div class="info-value">Customer Success Manager</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Company</div>
+                    <div class="info-value">Friendlier</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Location</div>
+                    <div class="info-value">Guelph, ON, Canada</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Match Level</div>
+                    <div class="info-value">MEDIUM</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills Analysis</h2>
+            <div class="grid">
+                <div class="info-item">
+                    <div class="info-label">Matching Technical Skills</div>
+                    <div class="skill-list">
+                        
+                        <span class="skill-tag">Microsoft Excel</span>
+                        
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Matching Professional Skills</div>
+                    <div class="skill-list">
+                        
+                        <span class="skill-tag">Analytical Thinking</span>
+                        
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Technical Skills to Develop</div>
+                    <div class="skill-list">
+                        
+                        <span class="skill-tag">Salesforce</span>
+                        
+                        <span class="skill-tag">HubSpot</span>
+                        
+                        <span class="skill-tag">CRM Platforms</span>
+                        
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Professional Skills to Develop</div>
+                    <div class="skill-list">
+                        
+                        <span class="skill-tag">Client Relationship Management</span>
+                        
+                        <span class="skill-tag">Conflict Resolution</span>
+                        
+                        <span class="skill-tag">Strategic Planning</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Recommended Courses</h2>
+            
+            <div class="course-card">
+                <h3 class="course-title">Salesforce Administrator Certification</h3>
+                <div class="info-item">
+                    <div class="info-label">Skill Target</div>
+                    <div class="info-value">Salesforce</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Relevance</div>
+                    <div class="info-value">HIGH</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Why This Course</div>
+                    <div class="info-value">This course is designed to prepare individuals for the Salesforce Administrator certification, covering all essential aspects of Salesforce.</div>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <h3 class="course-title">HubSpot Marketing Software Certification</h3>
+                <div class="info-item">
+                    <div class="info-label">Skill Target</div>
+                    <div class="info-value">HubSpot</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Relevance</div>
+                    <div class="info-value">HIGH</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Why This Course</div>
+                    <div class="info-value">This course provides comprehensive training on using HubSpot's marketing tools, ideal for mastering HubSpot's CRM platform.</div>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <h3 class="course-title">CRM Fundamentals</h3>
+                <div class="info-item">
+                    <div class="info-label">Skill Target</div>
+                    <div class="info-value">CRM Platforms</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Relevance</div>
+                    <div class="info-value">MEDIUM</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Why This Course</div>
+                    <div class="info-value">This course covers the basics of various CRM platforms, providing a broad understanding of CRM systems and their applications.</div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Career Development Plan</h2>
+            <div class="development-plan">
+                Creating a career development plan for a Customer Success Manager position at Friendlier in Guelph, ON, involves addressing both immediate and long-term goals to bridge the identified skills gaps. Here's a structured plan:
+
+### 1. Immediate Steps to Improve Candidacy
+
+**Technical Skills:**
+- **Salesforce &amp; HubSpot:**
+  - Enroll in online courses or workshops focused on Salesforce and HubSpot. Platforms like Trailhead (Salesforce's own learning platform) and HubSpot Academy offer free resources.
+  - Gain hands-on experience by setting up a free trial account or using sandbox environments to practice.
+
+- **CRM Platforms:**
+  - Explore general CRM courses on platforms like Coursera or LinkedIn Learning to understand different CRM systems and their functionalities.
+
+**Professional Skills:**
+- **Client Relationship Management:**
+  - Attend webinars or workshops on effective client relationship management.
+  - Read books or articles on building strong client relationships, such as "The Trusted Advisor" by David H. Maister.
+
+- **Conflict Resolution:**
+  - Take online courses on conflict resolution and negotiation skills. Consider courses from Coursera or Udemy.
+  - Practice active listening and empathy in daily interactions to enhance these skills.
+
+- **Strategic Planning:**
+  - Engage in strategic planning exercises or simulations available online.
+  - Study strategic planning frameworks and case studies relevant to customer success.
+
+### 2. Long-term Development Recommendations
+
+- **Networking:**
+  - Join professional organizations such as the Customer Success Association or local business groups in Guelph to network with other professionals.
+  - Attend industry conferences and seminars to stay updated on trends and best practices.
+
+- **Mentorship:**
+  - Seek a mentor within the customer success field who can provide guidance and feedback on your career development.
+
+- **Project Involvement:**
+  - Volunteer for cross-functional projects within your current role to gain broader experience and demonstrate leadership potential.
+
+### 3. Timeline for Skill Acquisition
+
+- **0-3 Months:**
+  - Complete introductory courses on Salesforce and HubSpot.
+  - Begin practicing CRM skills using trial accounts.
+  - Attend webinars on client relationship management and conflict resolution.
+
+- **3-6 Months:**
+  - Advance to intermediate courses on Salesforce and HubSpot.
+  - Implement learned CRM strategies in real-world scenarios.
+  - Engage in strategic planning exercises and apply concepts in your current role.
+
+- **6-12 Months:**
+  - Achieve proficiency in Salesforce and HubSpot, aiming for certification.
+  - Demonstrate improved client relationship and conflict resolution skills in performance reviews.
+  - Develop a strategic plan for a project or initiative within your organization.
+
+### 4. Additional Certifications or Qualifications to Consider
+
+- **Salesforce Certification:**
+  - Consider obtaining the Salesforce Certified Administrator or Salesforce Certified Sales Cloud Consultant certification.
+
+- **HubSpot Certification:**
+  - Complete the HubSpot Inbound Certification and HubSpot Sales Software Certification.
+
+- **Professional Development:**
+  - Pursue a certification in Customer Success Management, such as the Certified Customer Success Manager (CCSM) from SuccessHACKER.
+
+- **Advanced Education:**
+  - Consider pursuing a Master's degree in Business Administration (MBA) or a related field to enhance strategic planning and leadership skills.
+
+By following this plan, you can systematically address the skills gaps and enhance your candidacy for the Customer Success Manager position at Friendlier. Regularly review and adjust your plan based on progress and feedback from mentors or supervisors.
+            </div>
+        </div>
+
+        <a href="http://127.0.0.1:5000/" class="back-button">Upload Another Resume</a>
+    </div>
+
+</body></html>
